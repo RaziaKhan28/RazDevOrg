@@ -4,7 +4,7 @@ trigger Test1 on Account (Before update) {
     
        Account acc = [select id,description from Account where id =: a.id];
        
-       acc.description = 'RazTesti44';
+       acc.description = 'RazTesti44jj';
        
     }
     
