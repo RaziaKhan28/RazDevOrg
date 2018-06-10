@@ -53,5 +53,6 @@ public class AccountPaginationController {
   
     public void cancel() {
         con.cancel();
+        System.debug('hello');
     }        
 }
